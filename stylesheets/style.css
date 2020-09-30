@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: #E8E8E8;
+ background-color: #E8E8E8;
 }
 
 header {
-    height: 100px;
-    background-color: #a6a6a6;
-    color: white;
+ height: 100px;
+ background-color: #a6a6a6;
+ color: white;
 }
 
 .logo > img {
@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .search-box,
@@ -38,12 +38,13 @@ header {
 }
 
 .search-box input {
-    border-radius: 4px;
-    border: none;
-    height: 35px;
-    width: 250px;
-    padding-left: 6px;
-    margin-top: -6px;
+ border-radius: 4px;
+ border: none;
+ height: 35px;
+ width: 250px;
+ padding-left: 6px;
+ margin-top: -6px;
+ outline: none;
 }
 
 .navbar-item-more {
@@ -68,43 +69,82 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  background-color: #E8E8E8;
   flex-wrap: wrap;
+  margin-top: 12%;
 }
 
 .main-section-title {
+  display: inline;
   background-color: #303030;
   color: white;
   border: 1px solid black;
   width: 400px;
   text-align: center;
   align-self: center;
+  margin-top: -35%;
 }
 
-.main-section-content {
+.main-block {
+  width: 40%;
+  height: 12vh;
+  margin-left: 30%;
   background-color: #505050;
   text-align: center;
+  margin-top: 10%;
 }
 
 .left-section,
 .right-section {
-  background-color: #505050;
   width: 25%;
   text-align: center;
+  margin-top: 10%;
+}
+
+.left-section *,
+.right-section * {
+  background-color: #505050;
+  line-height: 2.5rem;
 }
 
 .left-section {
   order: 1;
 }
 
-.left-section-content a {
+.left-section-content a, 
+.right-section-content a {
   text-decoration: none;
   padding-left: 15px;
   color: white;
   font-weight: 700;
   font-size: 30px;
+  text-transform: capitalize;
+}
+
+.right-section > p,
+.left-section > p {
 }
 
 .right-section {
   order: 3;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  margin-left: -70%;
+  margin-top: 5%;
+}
+
+.right-section-title,
+.left-section-title {
+  margin-top: -10%;
+  padding-bottom: 10%;
+}
+
+.p-container {
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  margin-left: -80.5%;
 }
