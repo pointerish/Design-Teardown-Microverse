@@ -59,8 +59,8 @@ header {
 
 .main-wrapper {
   display: flex;
-  align-items: stretch;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main-section {
@@ -68,21 +68,18 @@ header {
   flex-grow: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background-color: #E8E8E8;
-  flex-wrap: wrap;
-  margin-top: 12%;
 }
 
 .main-section-title {
-  display: inline;
+  width: 400px;
   background-color: #303030;
   color: white;
   border: 1px solid black;
-  width: 400px;
   text-align: center;
   align-self: center;
-  margin-top: -35%;
+  margin-top: 12%;
+  margin-left: -35%;
 }
 
 .main-block {
@@ -96,9 +93,9 @@ header {
 
 .left-section,
 .right-section {
-  width: 25%;
+  width: 40%;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .left-section *,
@@ -109,6 +106,7 @@ header {
 
 .left-section {
   order: 1;
+  margin-left: 4%;
 }
 
 .left-section-content a, 
@@ -121,12 +119,9 @@ header {
   text-transform: capitalize;
 }
 
-.right-section > p,
-.left-section > p {
-}
-
 .right-section {
   order: 3;
+  margin-left: -12%
 }
 
 .profile-image {
@@ -142,9 +137,13 @@ header {
   padding-bottom: 10%;
 }
 
+.left-section-title {
+    padding-left: 25px;
+}
+
 .p-container {
   font-size: 14px;
   color: white;
   display: inline-block;
-  margin-left: -80.5%;
+  margin-left: -77.5%;
 }
