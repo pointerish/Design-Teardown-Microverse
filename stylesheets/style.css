@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -31,7 +32,6 @@ header {
 .navbar-item-more { 
   list-style: none;
   font-weight: 700;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 15px;
   letter-spacing: 1px;
   margin-top: 40px;
@@ -61,13 +61,12 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: -10%;
+  margin-left: -5%;
 }
 
 .main-section {
-  order: 2;
-  flex-grow: 2;
   display: flex;
-  flex-direction: column;
   background-color: #E8E8E8;
 }
 
@@ -75,20 +74,10 @@ header {
   width: 400px;
   background-color: #303030;
   color: white;
-  border: 1px solid black;
   text-align: center;
-  align-self: center;
-  margin-top: 12%;
-  margin-left: -35%;
-}
-
-.main-block {
-  width: 40%;
-  height: 12vh;
-  margin-left: 30%;
-  background-color: #505050;
-  text-align: center;
-  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 
 .left-section,
@@ -96,17 +85,12 @@ header {
   width: 40%;
   text-align: center;
   margin-top: 15%;
+  background-color: #505050;
 }
 
 .left-section *,
 .right-section * {
-  background-color: #505050;
   line-height: 2.5rem;
-}
-
-.left-section {
-  order: 1;
-  margin-left: 4%;
 }
 
 .left-section-content a, 
@@ -120,8 +104,7 @@ header {
 }
 
 .right-section {
-  order: 3;
-  margin-left: -12%
+  /* margin-left: -12%  */
 }
 
 .profile-image {
@@ -139,11 +122,4 @@ header {
 
 .left-section-title {
     padding-left: 25px;
-}
-
-.p-container {
-  font-size: 14px;
-  color: white;
-  display: inline-block;
-  margin-left: -77.5%;
 }
