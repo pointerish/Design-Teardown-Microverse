@@ -1,78 +1,85 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar > ul{
-    display: flex;  
-    justify-content: space-between;
-    align-items: center;
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
 }
 
 header {
-    background-color: #a6a6a6;
-    color: white;
+  background-color: #a6a6a6;
+  color: white;
 }
 
 .logo img{
-    background-color: #737373;
+  background-color: #737373;
 }
 
 .logo,
 .search-box,
 .navbar-item,
 .navbar-item-more { 
-    list-style: none;
-    width: 100%;
-    font-weight: 700;
-    /* font-style */
+  list-style: none;
+  width: 100%;
+  font-weight: 700;
 }
 
 .navbar-item-more {
-    background-color: #737373;
+  background-color: #737373;
 }
 
 .main-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 }
 
 .main-section {
-    order: 2;
-    border: 2px solid;
+  order: 2;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  flex-wrap: wrap;
 }
 
 .main-section-title {
-    background-color: #303030;
-    color: white;
-    border: 1px solid black;
-    width: 400px;
-    text-align: center;
+  background-color: #303030;
+  color: white;
+  border: 1px solid black;
+  width: 400px;
+  text-align: center;
+  align-self: center;
 }
 
 .main-section-content {
-    background-color: #bfbfbf;
+  background-color: #bfbfbf;
+  text-align: center;
 }
 
 .left-section,
 .right-section {
-    background-color: #a6a6a6;
-    width: 25%;
+  background-color: #a6a6a6;
+  width: 25%;
+  text-align: center;
 }
 
 .left-section {
-    order: 1;
+  order: 1;
 }
 
 .left-section-content a {
-    text-decoration: none;
-    padding-left: 15px;
-    color: white;
-    font-weight: 700;
-    font-size: 30px;
+  text-decoration: none;
+  padding-left: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .right-section {
-    order: 3;
+  order: 3;
 }
