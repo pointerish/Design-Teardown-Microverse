@@ -32,6 +32,11 @@ A Smashing Magazine HeatMap built for Microverse's UI/UX module.
 
 Contributions, issues, and feature requests are welcome!
 
+##  Getting Started
+
+To run the code simply download the repository by either cloning it or 
+downloading it as Zip file. Then use the old trustable browser to open the HTML file.
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

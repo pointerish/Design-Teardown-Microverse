@@ -14,6 +14,11 @@ header {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: #505050;
+}
+
 .logo > img {
   height: 140px;
   width: 150px;
@@ -86,7 +91,7 @@ header {
 .left-section,
 .right-section {
   width: 40%;
-  text-align: center;
+  text-align: space-around;
   margin-top: 10%;
   background-color: #505050;
 }
@@ -117,11 +122,14 @@ header {
 .left-section-title {
   margin-top: -10%;
   padding-bottom: 10%;
+  margin-left: 30%;
 }
 
 .left-section-title {
   padding-left: 25px;
 }
+
+.left-section > img
 
 .p-container {
   display: flex;
@@ -135,6 +143,7 @@ header {
   background-color: #a6a6a6;
   display: flex;
   flex-grow: 1;
+  width: 90vw;
 }
 
 .text-and-button {
@@ -174,7 +183,7 @@ header {
   font-family: 'Times New Roman', Times, serif;
   height: 50vh;
   align-items: center;
-  width: -8vw;
+  width: 90vw;
 }
 
 .posts-info {
