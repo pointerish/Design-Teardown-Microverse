@@ -220,8 +220,8 @@ flex-wrap: wrap;
 }
 
 .side-adds img{
- width: 150px;
- height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .latest-articles-link {
@@ -243,12 +243,12 @@ flex-wrap: wrap;
 }
 
 .shipping-date,
-.meet-click  {
+.meet-click {
   margin-top: 15px;
 }
 
 .meet-click {
-font-size: 35px;
+  font-size: 35px;
 }
 
 .book-info {
@@ -268,7 +268,6 @@ font-size: 35px;
   margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .shipping-image {
@@ -283,7 +282,7 @@ font-size: 35px;
   margin-left: 4%;
 }
 
-.person-info{
+.person-info {
   display: flex;
   background-color: #909090;
   height: 300px;
@@ -320,6 +319,10 @@ font-size: 35px;
   font-size: 54px;
 }
 
+.footer > h2 {
+  margin: 2%;
+}
+
 .book-container > div > button {
   margin-top: 5%;
   height: 20%; 
@@ -333,16 +336,12 @@ font-size: 35px;
   background-color: #a6a6a6;
 }
 
-.footer > h2 {
-  margin: 2%;
-}
-
 .footer-images-container {
   display: flex;
   align-items: center;
 }
 
-.footer-images-container  > img {
+.footer-images-container > img {
   width: 25%;
   height: 30vh;
 }
@@ -358,9 +357,6 @@ font-size: 35px;
 }
 
 .extend {
-  padding: 0px;
+  padding: 0;
   margin-top: -150px;
 }
-
-
-
