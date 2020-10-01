@@ -5,13 +5,13 @@
 }
 
 body {
- background-color: #E8E8E8;
+  background-color: #e8e8e8;
 }
 
 header {
- height: 100px;
- background-color: #a6a6a6;
- color: white;
+  height: 100px;
+  background-color: #a6a6a6;
+  color: white;
 }
 
 .logo > img {
@@ -19,8 +19,8 @@ header {
   width: 150px;
 }
 
-.navbar > ul{
-  display: flex; 
+.navbar > ul {
+  display: flex;
 }
 
 .logo {
@@ -29,7 +29,7 @@ header {
 
 .search-box,
 .navbar-item,
-.navbar-item-more { 
+.navbar-item-more {
   list-style: none;
   font-weight: 700;
   margin-left: 15px;
@@ -41,19 +41,20 @@ header {
   vertical-align: middle;
   margin-top: 10px;
 }
+
 .comment {
-  padding-top: 0px;
+  padding-top: 0;
   margin-top: -40px;
 }
 
 .search-box input {
- border-radius: 4px;
- border: none;
- height: 35px;
- width: 250px;
- padding-left: 6px;
- margin-top: -6px;
- outline: none;
+  border-radius: 4px;
+  border: none;
+  height: 35px;
+  width: 250px;
+  padding-left: 6px;
+  margin-top: -6px;
+  outline: none;
 }
 
 .navbar-item-more {
@@ -67,9 +68,9 @@ header {
 }
 
 .main-wrapper {
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .main-section-title {
@@ -95,7 +96,7 @@ flex-wrap: wrap;
   line-height: 2.5rem;
 }
 
-.left-section-content a, 
+.left-section-content a,
 .right-section-content a {
   text-decoration: none;
   padding-left: 15px;
@@ -119,13 +120,13 @@ flex-wrap: wrap;
 }
 
 .left-section-title {
-    padding-left: 25px;
+  padding-left: 25px;
 }
 
 .p-container {
-    display: flex;
-   justify-content: center;
-   vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
 }
 
 .membership {
@@ -219,7 +220,7 @@ flex-wrap: wrap;
   padding: 5%;
 }
 
-.side-adds img{
+.side-adds img {
   width: 150px;
   height: 150px;
 }
@@ -310,7 +311,11 @@ flex-wrap: wrap;
 }
 
 .blog-post {
-  padding: 4%; 
+  padding: 4%;
+}
+
+.footer > h2 {
+  margin: 2%;
 }
 
 .book-container > div > h2 {
@@ -319,13 +324,9 @@ flex-wrap: wrap;
   font-size: 54px;
 }
 
-.footer > h2 {
-  margin: 2%;
-}
-
 .book-container > div > button {
   margin-top: 5%;
-  height: 20%; 
+  height: 20%;
 }
 
 .footer {
