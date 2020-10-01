@@ -182,7 +182,7 @@ flex-wrap: wrap;
 .shopify-adds {
   width: 300px;
   text-align: center;
-  background-color: grey;
+  background-color: #e8e8e8;
 }
 
 .shopify-container h3 {
@@ -215,7 +215,73 @@ flex-wrap: wrap;
  height: 150px;
 }
 
-.latest-articles-link > a{
+.latest-articles-link {
+  margin-left: 5%;
+}
+
+.latest-articles-link > a {
   display: inline-block;
   text-decoration: none;
+}
+
+.shipping {
+  margin-top: 20px;
+  border: 1px solid black;
+  text-align: center;
+  height: 600px;
+  color: white;
+  background-color: #585858;
+}
+
+.shipping-date,
+.meet-click  {
+  margin-top: 15px;
+}
+
+.meet-click {
+font-size: 35px;
+}
+
+.book-info {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.shipping button {
+  height: 40px;
+  width: 200px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.shipping-image {
+  height: 200px;
+  width: 200px;
+  margin-top: 15px;
+}
+
+.person-image {
+  height: 200px;
+  width: 200px;
+  margin-left: 4%;
+}
+
+.person-info{
+  display: flex;
+  background-color: #909090;
+  height: 300px;
+  width: auto;
+}
+
+.person-details {
+  margin-top: 3%;
+  margin-left: 2%;
 }
