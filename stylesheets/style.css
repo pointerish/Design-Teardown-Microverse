@@ -122,7 +122,6 @@ flex-wrap: wrap;
 .membership {
   margin-top: 8%;
   padding: 3% 3%;
-  width: 100vw;
   background-color: #a6a6a6;
   display: flex;
   flex-grow: 1;
@@ -134,7 +133,7 @@ flex-wrap: wrap;
 }
 
 .smash-membership {
-  margin-top: 5%;
+  margin-top: 1%;
   width: 40%;
   height: 40%;
   background-color: #303030;
@@ -161,10 +160,11 @@ flex-wrap: wrap;
 }
 
 .posts {
-display: flex;
-height:200px;
-font-family: 'Times New Roman', Times, serif;
-height: 350px;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  height: 50vh;
+  align-items: center;
+  width: -8vw;
 }
 
 .posts-info {
@@ -172,15 +172,21 @@ height: 350px;
   margin-left: 35px;
 }
 
-.shopify-adds {
-  margin-left: -35px;
-  width: 300px;
-  text-align: center;
+.side-adds-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8%;
 }
 
-.shopify-adds img {
-  margin-left:auto;
-  margin-right: auto;
+.shopify-adds {
+  width: 300px;
+  text-align: center;
+  background-color: grey;
+}
+
+.shopify-container h3 {
+  text-align: center;
 }
 
 .adds {
@@ -188,6 +194,7 @@ height: 350px;
   border: 1px solid grey;
   height: 250px;
 }
+
 .adds button {
   margin-top: 25px;
   width: 120px;
@@ -197,13 +204,18 @@ height: 350px;
   border: none;
 }
 
-.side-adds-container {
-  display: flex;
-  justify-content: space-around;
+.side-adds {
+  background-color: grey;
+  text-align: center;
+  padding: 5%;
 }
 
-.smashing-members img{
+.side-adds img{
  width: 150px;
  height: 150px;
 }
 
+.latest-articles-link > a{
+  display: inline-block;
+  text-decoration: none;
+}
