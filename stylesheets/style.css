@@ -285,3 +285,53 @@ font-size: 35px;
   margin-top: 3%;
   margin-left: 2%;
 }
+
+.blog-posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+}
+
+.blog-posts-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blog-post {
+  padding: 4%; 
+}
+
+.book-container > div > h2 {
+  text-decoration: underline;
+  color: white;
+  font-size: 54px;
+}
+
+.book-container > div > button {
+  margin-top: 5%;
+  height: 20%; 
+}
+
+.footer {
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer > h2 {
+  margin: 2%;
+}
+
+.footer-images-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-images-container  > img {
+  width: 25%;
+  height: 30vh;
+}
