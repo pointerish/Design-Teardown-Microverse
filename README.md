@@ -4,7 +4,7 @@
 
 A Smashing Magazine HeatMap built for Microverse's UI/UX module.
 
-![screenshot](./assets/screenshot.png)
+![screenshot](screenshot.png)
 
 
 ## Built With
