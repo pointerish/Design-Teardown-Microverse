@@ -37,6 +37,15 @@ header {
   margin-top: 40px;
 }
 
+.comment-icon {
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.comment {
+  padding-top: 0px;
+  margin-top: -40px;
+}
+
 .search-box input {
  border-radius: 4px;
  border: none;
@@ -291,6 +300,7 @@ font-size: 35px;
   justify-content: center;
   align-items: center;
   padding: 4%;
+  flex-grow: 1;
 }
 
 .blog-posts-column {
@@ -320,6 +330,7 @@ font-size: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #a6a6a6;
 }
 
 .footer > h2 {
@@ -335,3 +346,21 @@ font-size: 35px;
   width: 25%;
   height: 30vh;
 }
+
+.blog-person {
+  height: 100px;
+  width: 100px;
+}
+
+.email-subscribers {
+  background-color: #505050;
+  height: 300px;
+}
+
+.extend {
+  padding: 0px;
+  margin-top: -150px;
+}
+
+
+
