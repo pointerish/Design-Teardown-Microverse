@@ -159,3 +159,51 @@ flex-wrap: wrap;
   width: 30%;
   height: 100%;
 }
+
+.posts {
+display: flex;
+height:200px;
+font-family: 'Times New Roman', Times, serif;
+height: 350px;
+}
+
+.posts-info {
+  width: 400px;
+  margin-left: 35px;
+}
+
+.shopify-adds {
+  margin-left: -35px;
+  width: 300px;
+  text-align: center;
+}
+
+.shopify-adds img {
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.adds {
+  border-radius: 4px;
+  border: 1px solid grey;
+  height: 250px;
+}
+.adds button {
+  margin-top: 25px;
+  width: 120px;
+  height: 30px;
+  background-color: #696969;
+  color: white;
+  border: none;
+}
+
+.side-adds-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.smashing-members img{
+ width: 150px;
+ height: 150px;
+}
+
