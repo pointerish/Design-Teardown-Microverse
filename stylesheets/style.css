@@ -36,6 +36,10 @@ a {
   margin-left: 10px;
 }
 
+.title-wrapper{
+  position: relative;
+}
+
 .search-box,
 .navbar-item,
 .navbar-item-more {
@@ -80,10 +84,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
-}
-
-.title-wrapper {
-  background-color: var(--grey-secondary);
+  margin-top: -13.3%;
 }
 
 .main-section-title {
@@ -118,7 +119,6 @@ a {
   height: 50vh;
   flex-direction: column;
   align-self: flex-start;
-  
 }
 
 .left-section *,
