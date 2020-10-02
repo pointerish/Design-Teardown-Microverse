@@ -370,6 +370,22 @@ a {
   background-color: #a6a6a6;
 }
 
+.center-me {
+  align-self: center;
+}
+
+.footer-list > li {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.links-container {
+  justify-content: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  flex-direction: column;
+}
+
 .footer-images-container {
   align-items: center;
 }
