@@ -4,8 +4,8 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   --grey-primary: #303030;
   --grey-secondary: #505050;
-  --grey-third: #a6a6a6;
-  --grey-fourth: #b3b3b3;
+  --grey-third: #484848;
+  --grey-fourth: #404040;
 }
 
 body {
@@ -84,6 +84,7 @@ a {
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: -13.3%;
+  height: 1100px;
 }
 
 .main-section-title {
@@ -115,9 +116,10 @@ a {
 .left-section,
 .right-section {
   width: 50%;
-  height: 50vh;
+  height: 400px;
   flex-direction: column;
-  align-self: flex-start;
+  align-self: stretch;
+  padding-top: 15%;
 }
 
 .left-section *,
@@ -389,4 +391,11 @@ a {
 .extend {
   padding: 0;
   margin-top: -150px;
+}
+
+@media (min-width: 300px) and (max-width: 800px){
+  .left-section,
+  .right-section  {
+  margin-top: -42px;
+}
 }
