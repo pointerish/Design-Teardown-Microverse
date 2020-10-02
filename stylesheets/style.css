@@ -1,0 +1,442 @@
+:root {
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  --grey-primary: #303030;
+  --grey-secondary: #505050;
+  --grey-third: #484848;
+  --grey-fourth: #3a3939;
+
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  height: 100px;
+  background-color: #a6a6a6;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #505050;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.logo > img {
+  height: 140px;
+  width: 150px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.title-wrapper {
+  position: relative;
+}
+
+.color-changer-banner {
+  position: relative;
+  margin-left: 1000px;
+  margin-top: -70px;
+}
+
+.color-changer {
+  width: 40px;
+  height: 40px;
+}
+
+.seriously-banner {
+  background-color: white;
+  height: 20px;
+  align-self: center;
+  margin-left: 5px;
+}
+
+.search-box,
+.navbar-item,
+.navbar-item-more {
+  list-style: none;
+  font-weight: 700;
+  margin-left: 15px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+
+.comment-icon {
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.comment {
+  padding-top: 0;
+  margin-top: -40px;
+}
+
+.search-box input {
+  border-radius: 4px;
+  border: none;
+  height: 35px;
+  width: 250px;
+  padding-left: 6px;
+  margin-top: -6px;
+  outline: none;
+}
+
+.navbar-item-more {
+  background-color: #737373;
+  height: 25px;
+  width: 50px;
+  margin-top: 35px;
+  padding-left: 10px;
+  padding-top: 4px;
+  border-radius: 4px;
+}
+
+.main-article-container {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: -11%;
+  height: 1100px;
+}
+
+.main-section-title {
+  width: 400px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.g-primary {
+  background-color: var(--grey-primary);
+}
+
+.g-secondary {
+  background-color: var(--grey-secondary);
+}
+
+.g-third {
+  background-color: var(--grey-third);
+}
+
+.g-fourth {
+  background-color: var(--grey-fourth);
+}
+
+.left-section,
+.right-section {
+  width: 50%;
+  height: 400px;
+  flex-direction: column;
+  align-self: stretch;
+  padding-top: 15%;
+}
+
+.left-section *,
+.right-section * {
+  line-height: 2.5rem;
+}
+
+.picture-title {
+  justify-content: space-around;
+}
+
+.left-section-content,
+.right-section-content {
+  text-align: center;
+}
+
+.left-section-content a,
+.right-section-content a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: 30px;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+}
+
+.right-section-title,
+.left-section-title {
+  padding: 4%;
+  align-self: flex-start;
+  margin-left: -100px;
+}
+
+.p-container {
+  justify-content: space-evenly;
+  vertical-align: middle;
+}
+
+.chat-icon {
+  text-align: center;
+}
+
+.membership {
+  margin-top: 8%;
+  padding: 3% 3%;
+  background-color: #a6a6a6;
+  flex-grow: 1;
+  width: 90vw;
+}
+
+.text-and-button {
+  width: 60vw;
+  margin-left: 5%;
+}
+
+.smash-membership {
+  margin-top: 1%;
+  width: 40%;
+  height: 40%;
+  background-color: #303030;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.u-list {
+  margin-left: 5%;
+}
+
+.image {
+  flex-grow: 2;
+  width: 40vw;
+}
+
+.membership-image {
+  margin-left: 57%;
+  margin-top: -15%;
+  width: 30%;
+  height: 100%;
+}
+
+.posts {
+  font-family: 'Times New Roman', Times, serif;
+  height: 50vh;
+  align-items: center;
+  width: 90vw;
+}
+
+.posts-info {
+  width: 400px;
+  margin-left: 35px;
+}
+
+.side-adds-container {
+  width: 100vw;
+  justify-content: space-around;
+  margin-bottom: 8%;
+}
+
+.shopify-adds {
+  width: 300px;
+  text-align: center;
+  background-color: #e8e8e8;
+}
+
+.shopify-container h3 {
+  text-align: center;
+}
+
+.adds {
+  border-radius: 4px;
+  border: 1px solid grey;
+  height: 250px;
+}
+
+.adds button {
+  margin-top: 25px;
+  width: 120px;
+  height: 30px;
+  background-color: #696969;
+  color: white;
+  border: none;
+}
+
+.side-adds {
+  background-color: grey;
+  text-align: center;
+  padding: 5%;
+}
+
+.side-adds img {
+  width: 150px;
+  height: 150px;
+}
+
+.latest-articles-link {
+  margin-left: 5%;
+}
+
+.latest-articles-link > a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.shipping {
+  margin-top: 20px;
+  border: 1px solid black;
+  text-align: center;
+  height: 600px;
+  color: white;
+  background-color: #585858;
+}
+
+.shipping-date,
+.meet-click {
+  margin-top: 15px;
+}
+
+.meet-click {
+  font-size: 35px;
+}
+
+.book-info {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.shipping button {
+  height: 40px;
+  width: 200px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shipping-image {
+  height: 200px;
+  width: 200px;
+  margin-top: 15px;
+}
+
+.person-image {
+  height: 200px;
+  width: 200px;
+  margin-left: 4%;
+}
+
+.person-info {
+  background-color: #909090;
+  height: 300px;
+  width: auto;
+}
+
+.person-details {
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.blog-posts {
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  flex-grow: 1;
+}
+
+.blog-posts-column {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blog-post {
+  padding: 4%;
+}
+
+.footer > h2 {
+  margin: 2%;
+}
+
+.book-container > div > h2 {
+  text-decoration: underline;
+  color: white;
+  font-size: 54px;
+}
+
+.book-container > div > button {
+  margin-top: 5%;
+  height: 20%;
+}
+
+.footer {
+  padding: 4%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a6a6a6;
+}
+
+.center-me {
+  align-self: center;
+}
+
+.footer-list > li {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.links-container {
+  justify-content: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  flex-direction: column;
+}
+
+.footer-images-container {
+  align-items: center;
+}
+
+.footer-images-container > img {
+  width: 25%;
+  height: 30vh;
+}
+
+.blog-person {
+  height: 100px;
+  width: 100px;
+}
+
+.email-subscribers {
+  background-color: #505050;
+  height: 300px;
+}
+
+.extend {
+  padding: 0;
+  margin-top: -150px;
+}
+
+.align-posts {
+  display: flex;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  .left-section,
+  .right-section {
+    margin-top: -42px;
+  }
+}
