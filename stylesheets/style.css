@@ -19,13 +19,13 @@ a {
   color: #505050;
 }
 
+.d-flex {
+  display: flex;
+}
+
 .logo > img {
   height: 140px;
   width: 150px;
-}
-
-.navbar > ul {
-  display: flex;
 }
 
 .logo {
@@ -73,7 +73,6 @@ a {
 }
 
 .main-wrapper {
-  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -90,10 +89,10 @@ a {
 
 .left-section,
 .right-section {
-  width: 40%;
-  text-align: space-around;
+  width: 50%;
   margin-top: 10%;
   background-color: #505050;
+  flex-direction: column;
 }
 
 .left-section *,
@@ -101,47 +100,50 @@ a {
   line-height: 2.5rem;
 }
 
+.picture-title {
+  justify-content: space-around;
+}
+
+.left-section-content,
+.right-section-content {
+  text-align: center;
+}
+
 .left-section-content a,
 .right-section-content a {
   text-decoration: none;
-  padding-left: 15px;
   color: white;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 18px;
   text-transform: capitalize;
+  margin-left: 30px;
 }
 
 .profile-image {
   width: 80px;
   height: 80px;
-  margin-left: -70%;
-  margin-top: 5%;
 }
 
 .right-section-title,
 .left-section-title {
-  margin-top: -10%;
-  padding-bottom: 10%;
-  margin-left: 30%;
+  padding: 4%;
+  align-self: flex-start;
+  margin-left: -100px;
 }
-
-.left-section-title {
-  padding-left: 25px;
-}
-
-.left-section > img
 
 .p-container {
-  display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   vertical-align: middle;
+}
+
+.chat-icon {
+  text-align: center;
 }
 
 .membership {
   margin-top: 8%;
   padding: 3% 3%;
   background-color: #a6a6a6;
-  display: flex;
   flex-grow: 1;
   width: 90vw;
 }
@@ -179,7 +181,6 @@ a {
 }
 
 .posts {
-  display: flex;
   font-family: 'Times New Roman', Times, serif;
   height: 50vh;
   align-items: center;
@@ -193,7 +194,6 @@ a {
 
 .side-adds-container {
   width: 100vw;
-  display: flex;
   justify-content: space-around;
   margin-bottom: 8%;
 }
@@ -293,7 +293,6 @@ a {
 }
 
 .person-info {
-  display: flex;
   background-color: #909090;
   height: 300px;
   width: auto;
@@ -305,7 +304,6 @@ a {
 }
 
 .blog-posts {
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 4%;
@@ -313,7 +311,6 @@ a {
 }
 
 .blog-posts-column {
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -340,14 +337,12 @@ a {
 
 .footer {
   padding: 4%;
-  display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #a6a6a6;
 }
 
 .footer-images-container {
-  display: flex;
   align-items: center;
 }
 
