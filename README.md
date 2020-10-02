@@ -9,11 +9,17 @@ A Smashing Magazine HeatMap built for Microverse's UI/UX module.
 
 ## Built With
 
-- HTML & CSS
+- HTML
+- CSS
 
 ## Live Demo
 
 [Live Demo Link](https://pointerish.github.io/Design-Teardown-Microverse/)
+
+##  Getting Started
+
+To run the code simply download the repository by either cloning it or 
+downloading it as Zip file. Then use the old trustable browser to open the HTML file.
 
 ## Authors
 
@@ -31,11 +37,6 @@ A Smashing Magazine HeatMap built for Microverse's UI/UX module.
 ##  Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-##  Getting Started
-
-To run the code simply download the repository by either cloning it or 
-downloading it as Zip file. Then use the old trustable browser to open the HTML file.
 
 ## Show your support
 
