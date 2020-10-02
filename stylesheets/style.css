@@ -410,6 +410,10 @@ a {
   margin-top: -150px;
 }
 
+.align-posts {
+  display: flex;
+}
+
 @media (min-width: 300px) and (max-width: 800px) {
   .left-section,
   .right-section {
