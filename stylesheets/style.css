@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   --grey-primary: #303030;
   --grey-secondary: #505050;
   --grey-third: #484848;
@@ -36,7 +37,7 @@ a {
   margin-left: 10px;
 }
 
-.title-wrapper{
+.title-wrapper {
   position: relative;
 }
 
@@ -393,9 +394,9 @@ a {
   margin-top: -150px;
 }
 
-@media (min-width: 300px) and (max-width: 800px){
+@media (min-width: 300px) and (max-width: 800px) {
   .left-section,
-  .right-section  {
-  margin-top: -42px;
-}
+  .right-section {
+    margin-top: -42px;
+  }
 }
